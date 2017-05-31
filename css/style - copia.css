@@ -1,0 +1,170 @@
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+header #cabecera {
+    background: #005883;
+    color: white;
+    height: 80px;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}   
+    #cabecera a {
+        color: white;
+    }
+
+/************
+//-----------------------------
+// MENU
+//-----------------------------
+************/
+
+
+ul#menu {
+ background: #005883;
+ width: 940px;
+ float:left;
+ padding: 5px;
+ margin: 0% 0% 0% 0%;
+}
+  
+ul#menu li {
+ color: #005883;
+ float: left;
+ list-style: none;
+ margin: 0% 5%;
+}
+  
+ul#menu li:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 49px;
+ background: #333;
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ }
+  
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+}
+ 
+ 
+ul#menu ul li a{
+ color: #fff;
+}
+  
+ul#menu ul li a:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}
+
+h1 {
+    font-size: 2.3em;
+  line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*********** 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #B3B3B3; 
+    font-size: 1em;
+    line-height: 1.5em;
+    
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 2.3em;
+  line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#contenido{
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+    #contenido header,
+    #contenido.content {
+        padding: 40px;
+    }
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#piepagina {
+    background: #005883;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+    #piepagina p {
+        margin: 0;
+    }
+    
+    #piepagina a {
+        color: white;
+    }

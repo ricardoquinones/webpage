@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #E6E6E6;
+}
+p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  list-style: none;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+header {
+  background: #005883;
+  width: 100%;
+  position: fixed;
+  padding-top: 5px;
+  z-index: 10;
+  border-radius: 10px;
+  background-image: url("../img/headerfondo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-size: 16px;
+ border-radius: 20px; 
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: right;
+ }
+nav ul li:hover {
+  background: #f0b429;
+}
+.contenido {
+  padding-top: 100px;
+}
+
+#logo{
+  float: left;
+  padding-left: 20px;
+  margin-top: 10px auto;
+}
+
+#titulo{  
+font-size: 30px;
+text-align: center;
+color:#ffffff;
+}
+#titulo1{
+  font-size: 32px;
+  text-align: center;
+  padding-top: auto;
+  margin-top: auto;
+  color:#005883;
+}
+.subtitulo{
+  font-size: 25px;
+  text-align: left;
+  padding-top: auto;
+  margin-top: auto;
+  color:#005883;
+}
+.imagenes{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+#docimg{
+  width: 50px;
+  height: 50px;
+}
+.listas{
+  margin-left: 5%;
+  text-align: justify;
+  list-style: none;
+}
+#contador{
+  font-size: 18px;
+  color: #f0b429;
+}
+#twitter{
+padding-top: 100px;
+padding-bottom: 80px;
+background-color: #E6E6E6;
+}
+#parrafo{
+  text-align: center;
+}
+/************
+//-----------------------------
+// SUBMENU
+//-----------------------------
+************/
+
+nav li ul {
+                display:none;
+                background: #005883;
+                position:absolute;
+                min-width:140px;
+                border-radius: 20px; 
+                background-image: url("../img/headerfondo.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            
+            nav li:hover > ul {
+                display:block;
+            }
+            
+            nav li ul li {
+                position:relative;
+            }
+            
+            nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+/************
+//-----------------------------
+// LETRA CAPITAL
+//-----------------------------
+************/
+.capitalLetter
+{
+   float:left;
+   color:#F47920;
+   background:#E6E6E6;
+   border:1px solid #999999;
+   font-size:60px;
+   line-height:60px;
+   padding:2px;
+   margin-right: 5px;
+}
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+    background: #005883;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-image: url("../img/headerfondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+    #main-footer p {
+        margin: 0;
+    }
+    
+    #main-footer a {
+        color: #ffffff;
+    }
